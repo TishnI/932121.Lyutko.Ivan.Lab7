@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+.canvas
+{
+    position: relative;
+    max-width: 1000px;
+    min-height: 600px;
+}
+
+.canvas__item--square
+{
+    position: absolute;
+    background-color: rgba(201, 35, 35, 0.9);
+    border: 1px solid black;
+}
+
+.canvas__item--triangle
+{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgba(26, 83, 207, 0.9);
+
+}
+
+.canvas__item--circle
+{
+    position: absolute;
+    background-color: rgba(100, 200, 50, 0.8);
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.selected
+{
+    background-color: yellow;
+}
